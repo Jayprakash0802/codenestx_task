@@ -1,0 +1,28 @@
+
+
+
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.app__link{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+.app__link a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: white;
+  border: 1px solid black;
+  background: rgb(209, 137, 137);
+  width: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+}
